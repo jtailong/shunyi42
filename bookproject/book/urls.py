@@ -1,8 +1,8 @@
 from django.urls import path
 
 
-from book.views import index, abc
+from book.views import index
 urlpatterns = [
     path('index/', index, name='index'),
-    path('abc/', abc, name='abc'),
+
 ]
